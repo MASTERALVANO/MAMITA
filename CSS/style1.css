@@ -1,0 +1,26 @@
+
+
+* {
+    background-color: #EFEDE0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+button {
+   width: 247px;
+   height: 65px;
+   background-color: #4C7D46;
+   border: #4C7D46;
+   font-family: 'Baloo';
+   font-size: 32px;
+   color: #EFEDE0;
+   border-radius: 32px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   cursor: pointer;
+}
+
+anima

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    background-color: #EFEDE0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.bars{
+    margin-left: 300px;
+    margin-right: 300px; 
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 18px;
+    color: #4C7D46;
+    display: flex;
+    align-items: center;
+}
+.bars a {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: #4C7D46;
+}
