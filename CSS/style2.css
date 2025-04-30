@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Germania+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jomhuria&display=swap');
 
 *{
     background-color: #EFEDE0;
@@ -11,6 +11,9 @@ body{
 .header{
     display: flex;
     flex-direction: row;
+    z-index: 1;
+    position: relative;
+    background: transparent;
 }
 
 .bars{
@@ -22,10 +25,73 @@ body{
     color: #4C7D46;
     display: flex;
     align-items: center;
+    background: transparent;
 }
+
 .bars a {
     padding-left: 50px;
     padding-right: 50px;
     text-decoration: none;
     color: #4C7D46;
+    background: transparent;
+}
+
+.roll {
+    position: absolute;
+    top: -300px;
+    left: 830px;
+    z-index: 0;
+    rotate: 0deg;
+}
+.content{
+    position: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.content p{
+    font-family: "Germania One";
+    font-size: 32px;
+    color: #2D2D2D;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    max-width: 550px;
+    word-wrap: break-word;
+    font-weight: 300;
+}
+.content h6{
+    font-family: "Freeman";
+    font-size: 32px;
+    color: #2D2D2D;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 300;
+}
+.content h3{
+    font-family: "jomhuria";
+    font-size: 128px;
+    color: #4C7D46;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    max-width: 500px;
+    word-wrap: break-word;
+    text-shadow: 0px 0px 3px #4C7D46;
+    line-height: 80px;
+    font-weight: 300;
+    height: 160px;
+    align-content: center;
+}
+.pilih{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.pilih button{
+    border: none;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+.pilih button:hover{
+    transform: scale(1.2);
 }
